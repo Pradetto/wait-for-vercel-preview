@@ -206,7 +206,7 @@ const waitForDeploymentToStart = async ({
   repo,
   sha,
   environment,
-  actorName = 'pradetto',
+  actorName = 'monte9',
   maxTimeout = 20,
   checkIntervalInMilliseconds = 2000,
 }) => {
@@ -325,7 +325,7 @@ const run = async () => {
       repo,
       sha: sha,
       environment: ENVIRONMENT,
-      actorName: 'pradetto',
+      actorName: 'monte9',
       maxTimeout: MAX_TIMEOUT / 2,
       checkIntervalInMilliseconds: CHECK_INTERVAL_IN_MS,
     });
